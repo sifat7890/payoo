@@ -18,7 +18,7 @@
                     <!-- Available balance -->
                     <div class="stats shadow mt-10">
                         <div class="stat">
-                            <div class="stat-value">89400</div>
+                            <div id="account-balance" class="stat-value">89400</div>
                             <div class="stat-desc">21% more than last month</div>
                         </div>
                     </div>
@@ -37,17 +37,17 @@
                             <label class="label">
                                 <span class="label-text">Amount</span>
                             </label>
-                            <input type="text" placeholder="Amount" class="input input-bordered" required />
+                            <input id="input-amount-number" type="text" placeholder="Amount" class="input input-bordered" required />
                         </div>
                         <div class="form-control">
                             <label class="label">
                                 <span class="label-text">Pin</span>
                             </label>
-                            <input type="password" placeholder="Pin" class="input input-bordered" autocomplete="off" required />
+                            <input id="input-pin-number" type="password" placeholder="Pin Number" class="input input-bordered" autocomplete="off" required />
                             
                         </div>
                         <div class="form-control mt-6">
-                            <button class="btn btn-primary">ADD MONEY</button>
+                            <button id="btn-add-money" class="btn btn-primary">ADD MONEY</button>
                         </div>
                     </form>
                     <!-- add money  form end -->
