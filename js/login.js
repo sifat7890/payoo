@@ -12,7 +12,7 @@ document.getElementById('button-login').addEventListener('click', function (even
     // step 4: validate phone and pin
     if (phoneNumber === '0123456789' && pinNumber === '1234') {
         console.log('You are locked in');
-        window.location.href = '/home.html';
+        window.location.href = './home.html';
 
     }
     else {
